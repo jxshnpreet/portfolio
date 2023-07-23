@@ -74,8 +74,15 @@ a.active {
     line-height: 1.2;
 }
 
+.home-content h3{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: 'VT323',sans-serif;
+    line-height: 1.2;
+}
+
 .home-content p{
-    font-size: 23px;
+    font-size: 18px;
     margin: 20px 0 40px;
 }
 
