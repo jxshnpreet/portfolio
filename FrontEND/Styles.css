@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=VT323&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+body {
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    /* background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+     */
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-bar {
+    display: flex;
+}
+
+a {
+    font-size: 18px;
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 20px;
+    transition: .3s;
+}
+
+a:hover ,
+a.active {
+    color: rgb(40, 115, 255);
+}
+
+.home {
+    display: flex;
+    background: url(Dp.jpg) no-repeat;
+    background-size: 20%;
+    background-position: 1080px;
+    height: 100vh;
+    align-items: center; 
+    padding: 0 10%;
+
+}
+
+.home-content {
+    max-width: 700px;
+}
+
+.home-content h1{
+    font-family: 'VT323',sans-serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.home-content p{
+    font-size: 23px;
+    margin: 20px 0 40px;
+}
+
+.home-content .btn-box{
+    display: flex;
+    justify-content: space-between;
+    width: 345px;
+    height: 50px;
+
+}
+
+.btn-box a{
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 100%;
+    background: rgb(124, 161, 230);
+    border: 2px solid rgb(124, 161, 230);
+    border-radius: 8px;
+    font-size: 19px;
+    color: black;
+    text-decoration: none;
+    font-weight: 600px;
+    letter-spacing: 1px;
+    transition: .5s;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.btn-box a:nth-child(2){
+    background: transparent;
+}
+
+.btn-box a:hover:nth-child(1){
+    background: rgb(150, 195, 252);
+    color: white;
+}
+
+.btn-box a:hover:nth-child(2){
+    background:  rgb(124, 161, 230);
+    color: white;
+}
+
+.home-sci{
+    position: fixed;
+    bottom: 300px;
+    width: 345px;
+    display: flex;
+    justify-content: center;
+}
+
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid rgb(124, 161, 230);
+    border-radius: 50%;
+    font-size: 20px;
+    text-decoration: none;
+}
