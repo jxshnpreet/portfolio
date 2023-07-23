@@ -54,8 +54,8 @@ a.active {
 
 .home {
     display: flex;
-    background: url(Dp.jpg) no-repeat;
-    background-size: 20%;
+    background: url(Hy.png) no-repeat;
+    background-size: 40%;
     background-position: 1080px;
     height: 100vh;
     align-items: center; 
