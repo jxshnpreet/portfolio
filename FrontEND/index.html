@@ -8,38 +8,173 @@
   <title>Portfolio</title>
 </head>
     <body>
-        <header class="header">
-            <a href="#" class="logo">Portfolio</a>
-
-            <div class="nav-bar" style="justify-content: end;">
-            
-            <ul class="menu" style="list-style: none; display: flex;" >
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-
-            </div>
-        </header>
-        <section class="home">
-            <div class="home-content">
-                <h1>Hi, I'm Jashanpreet Singh</h1>
-                <h3>Full Stack Developer</h3>
-                <p>I'm a skilled Full Stack Developer ready to make your life easier</p>
-                <div class="btn-box">
-                    <a href="#">Let's Talk</a>
-                    <a href="#">Learn More</a>
-                </div>
-            </div>
-            <div class="home-sci">
-                <a href="https://www.linkedin.com/in/jashanpreet-singh-3b0408204"><i class='bx bxl-linkedin' ></i></a>
-                <a href="https://github.com/jxshnpreet"><i class='bx bxl-github' ></i></a>
-                <a href="mailto: 2002jashanpreet@gmail.com"><i class='bx bxl-gmail' ></i></a>
-            </div>
-        </section>
         
-    
+            <header class="header">
+                <a href="#" class="logo">Portfolio</a>
+
+                <div class="nav-bar" style="justify-content: end;">
+                
+                <ul class="menu " style="list-style: none; display: flex;" >
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact-me">Contact</a></li>
+                </ul>
+
+                </div>
+            </header>
+            <section id="home" class="home">
+                <div class="home-content">
+                    <h1>Hi, I'm Jashanpreet Singh</h1>
+                    <h3>Full Stack Developer</h3>
+                    <p>I'm a skilled Full Stack Developer ready to make your life easier</p>
+                    <div class="btn-box">
+                        <a href="#contact-me">Let's Talk</a>
+                        <a href="#skills">Learn More</a>
+                    </div>
+                </div>
+            </section>
+
+            <hr>
+            <!-- About me Section start -->
+
+            <section id="about">
+                <div class="outer" style="display: flex;">
+                <div class="main">
+                    <img src="./assets/Dp.jpg" class="img-thumbnail" style="height: 500px;" alt="avatar" />
+                </div>
+                    <div class="about-text">
+                        <h2>About Me</h2>
+                        <h5>Developer & Designer</h5>
+                        <p>As a full-stack developer, I am a versatile and dynamic professional with expertise across the entire web development spectrum. From crafting responsive and intuitive front-end interfaces using HTML, CSS, and JavaScript to building robust and scalable back-end systems with languages like Java. My proficiency in handling databases, such as MySQL allows me to manage data effectively. With a passion for staying up-to-date with the latest technologies and trends, I am committed to delivering innovative and high-quality solutions that drive business success.</p>
+                        <div class="btn-box-section">
+                            <a href="https://drive.google.com/file/d/1mY7Npny6q9w2GX0cwrjROpvRVUTlcju8/view?usp=sharing">Download CV</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <hr>
+
+            <!-- Education Section -->
+            <section id="Education">
+                <div class="container">
+                    <h2 id="edu-heading">Education</h2>
+                    <div class="timeline">
+                        <div class="timeline-container primary">
+                            <div class="timeline-icon">
+                                <i class="far fa-grin-wink"></i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">2020-2024</span></h4>
+                                <p>Pursuing Bachelors of Technology in Computer Science Engineering from Rayat Bahra University (Mohali).</p>
+                                <p class="timeline-subtitle">BTech-CSE</p>
+                            </div>
+                        </div>
+                        <div class="timeline-container danger">
+                            <div class="timeline-icon">
+                                <i class="far fa-grin-hearts"></i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">2020</span></h4>
+                                <p>Completed Higher Secondary Education (XII) under Central board of Secondary Education in the year 2020(March) from Government Model Senior Secondary School Sec-37B , Chandigarh</p>
+                                <p class="timeline-subtitle">Higher Secondary Education (XII)</p>
+                            </div>
+                        </div>
+                        <div class="timeline-container success">
+                            <div class="timeline-icon">
+                                <i class="far fa-grin-tears"></i>
+                            </div>
+                            <div class="timeline-body">
+                                <h4 class="timeline-title"><span class="badge">2018</span></h4>
+                                <p>Completed Secondary School Certificate(X) under Punjab School Education Board in th year 2018(March) from Hemkunt Public School, Kharar </p>
+                                <p class="timeline-subtitle">Matrix(X)</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <hr style="background-color: #fff;">
+
+            <!-- skills section start -->
+            
+            <section id="skills">
+                <div class="container">
+                    <h2 id="skills-heading">Skills</h2>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="progress-title">HTML5</h3>
+                            <div class="progress">
+                                <div class="progress-bar" style="width:75%;">
+                                    <div class="progress-value">75%</div>
+                                </div>
+                            </div>
+                 
+                            <h3 class="progress-title">CSS3</h3>
+                            <div class="progress yellow">
+                                <div class="progress-bar" style="width:50%;">
+                                    <div class="progress-value">50%</div>
+                                </div>
+                            </div>
+
+                            <h3 class="progress-title">JavaScript</h3>
+                            <div class="progress green">
+                                <div class="progress-bar" style="width:30%;">
+                                    <div class="progress-value">30%</div>
+                                </div>
+                            </div>
+
+                            <h3 class="progress-title">JAVA</h3>
+                            <div class="progress blue">
+                                <div class="progress-bar" style="width:60%;">
+                                    <div class="progress-value">60%</div>
+                                </div>
+                            </div>
+
+                            <h3 class="progress-title">C++</h3>
+                            <div class="progress orange">
+                                <div class="progress-bar" style="width:70%;">
+                                    <div class="progress-value">70%</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- contact us  -->
+            <div class="card">   
+                <section id="contact-me">
+                    <footer>
+                        <div class="f-item-con">
+                            <div class="app-info">
+                                <span class='app-name'>
+                                    <span class='app-initial'>Contact-Me</span>
+                                </span>
+                                <p>We provides you with Well organised and SEO friendly Website Designs.</p>
+                            </div>
+                            <div class="useful-links">
+                                <div class="footer-title">Useful Links</div>
+                                <ul style="list-style: none;">
+                                    <li><a href="https://www.linkedin.com/in/jashanpreet-singh-3b0408204" style="color: #fff; margin-bottom: 20px;"><i class='bx bxl-linkedin' ></i></a></li>
+                                    <li><a href="https://github.com/jxshnpreet" style="color: #fff; margin-bottom: 20px;"><i class='bx bxl-github' ></i></a></li>
+                                    <li><a href="mailto: 2002jashanpreet@gmail.com" style="color: #fff; margin-bottom: 20px;"><i class='bx bxl-gmail' ></i></a></li> 
+                                </ul>
+                            </div>
+                            <div class="g-i-t">
+                                <div class="footer-title">Get in Touch</div>
+                                <form action="/" method="post" class="space-y-2">
+                                    <input type="text" name="g-name" class="g-inp" id="g-name" placeholder='Name' />
+                                    <input type="email" name="g-email" class="g-inp" id="g-email" placeholder='Email' />
+                                    <textarea type="text" name="g-msg" class="g-inp h-40 resize-none" id="g-msg"
+                                        placeholder='Message...'></textarea>
+                                    <button type="submit" class='f-btn'>Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </footer>
+                </section>    
+            </div>
     </body>
 </html>
